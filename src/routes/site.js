@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const siteController = require('../app/controller/SiteController');
 express.urlencoded({
-    extended: true,
+        extended: true,
 });
 express.json();
 router.post('/search', function (req, res) {
